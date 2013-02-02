@@ -379,6 +379,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rotate Image/Rotate Image-Prefix.pch";
 				INFOPLIST_FILE = "Rotate Image/Rotate Image-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,6 +391,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rotate Image/Rotate Image-Prefix.pch";
 				INFOPLIST_FILE = "Rotate Image/Rotate Image-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -448,6 +450,7 @@
 				8DBD67DF16BD807F00F98CD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DBD67E016BD807F00F98CD2 /* Build configuration list for PBXNativeTarget "Rotate ImageTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +459,7 @@
 				8DBD67E216BD807F00F98CD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
