@@ -23,6 +23,7 @@
 		8DBD67CF16BD807F00F98CD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBD67AA16BD807F00F98CD2 /* Foundation.framework */; };
 		8DBD67D716BD807F00F98CD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DBD67D516BD807F00F98CD2 /* InfoPlist.strings */; };
 		8DBD67DA16BD807F00F98CD2 /* Rotate_ImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD67D916BD807F00F98CD2 /* Rotate_ImageTests.m */; };
+		8DBD67E916BD8D7800F98CD2 /* chapel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DBD67E816BD8D7800F98CD2 /* chapel.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		8DBD67D616BD807F00F98CD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8DBD67D816BD807F00F98CD2 /* Rotate_ImageTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rotate_ImageTests.h; sourceTree = "<group>"; };
 		8DBD67D916BD807F00F98CD2 /* Rotate_ImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rotate_ImageTests.m; sourceTree = "<group>"; };
+		8DBD67E816BD8D7800F98CD2 /* chapel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chapel.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				8DBD67C016BD807F00F98CD2 /* MainStoryboard.storyboard */,
 				8DBD67C316BD807F00F98CD2 /* DukeViewController.h */,
 				8DBD67C416BD807F00F98CD2 /* DukeViewController.m */,
+				8DBD67E816BD8D7800F98CD2 /* chapel.jpg */,
 				8DBD67AF16BD807F00F98CD2 /* Supporting Files */,
 			);
 			path = "Rotate Image";
@@ -237,6 +240,7 @@
 				8DBD67BD16BD807F00F98CD2 /* Default@2x.png in Resources */,
 				8DBD67BF16BD807F00F98CD2 /* Default-568h@2x.png in Resources */,
 				8DBD67C216BD807F00F98CD2 /* MainStoryboard.storyboard in Resources */,
+				8DBD67E916BD8D7800F98CD2 /* chapel.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +385,7 @@
 				INFOPLIST_FILE = "Rotate Image/Rotate Image-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,6 +398,7 @@
 				INFOPLIST_FILE = "Rotate Image/Rotate Image-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
